@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ci.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Compund Interest Calculator</title>
+</head>
+<body>
+    <div>
+        <h1 class="headings">COMPOUND/SIMPLE INTEREST CALCULATOR</h1>
+    </div>
+    <div>
+        <select class="form-select form-select-lg mb-3" id="my-select" aria-label=".form-select-lg example" required>
+            <option value="0">Selelct the type of calculator</option>
+            <option value="1">Compound Interest Calculator</option>
+            <option value="2">Simple Interest Calculator</option>
+          </select>
+    </div>
+    <div>
+        <form action="/shelter" id="ciinput">
+            <label for="p">Principle amount: </label>
+            <input name="Principle"type="number" id="p">
+            <br>
+            <br>
+            <label for="i">Interest Rate: </label>
+            <input type="number" id="i">
+            <br>
+            <br>
+            <label for="n">Number of times interest is compounded per year: </label>
+            <input type="number" id="n">
+            <br>
+            <br>
+            <label for="t">Time in years: </label>
+            <input type="number" id="t">
+            <br><br>
+            <button type="submit" class="btn btn-secondary btn-lg">Calculate final amount</button>
+        </form>
+    </div>
+    <br><br>
+    <div id="ans">
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+<script src="ci.js"></script>
+</html>

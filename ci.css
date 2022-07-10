@@ -1,0 +1,14 @@
+.headings
+{
+    text-align: center;
+    color:#306ac7;
+    text-shadow: 5px;
+}
+#ans{
+    color: #306ac7;
+    font-size: 2rem;
+}
+#ciinput,#ans{
+    margin:10px 10px 10px 10px;
+}
+ 
